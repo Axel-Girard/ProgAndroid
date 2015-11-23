@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android-Training-TP1</string>
+
+    <string name="red_color_name">red</string>
+    <string name="green_color_name">green</string>
+    <string name="blue_color_name">blue</string>
+
+    <string name="first_row_name">row one</string>
+    <string name="second_row_name">row two</string>
+    <string name="third_row_name">row three</string>
+
+    <string name="type_here_label">Type here:</string>
+    <string name="ok_label">OK</string>
+    <string name="cancel_label">Cancel</string>
+
+    <string name="hello">Bonjour tout le monde!</string>
+    <string name="hour">Heure</string>
+    <string name="artistes">Les Artistes</string>
+    <string name="albums">Les Albums</string>
+    <string name="chansons">Les Chansons</string>
+
+    <string name="titre">Titre</string>
+
+    <string-array name="artistes_array">
+        <item>Abd Al Malik</item>
+        <item>Ben l\'Oncle Soul</item>
+        <item>Bernard Lavilliers</item>
+        <item>Eddy Mitchell</item>
+        <item>Gaëtan Roussel</item>
+        <item>Hindi Zahra</item>
+        <item>Katerine</item>
+        <item>M</item>
+        <item>Stromae</item>
+        <item>Yael Naim</item>
+        <item>Zaz</item>
+    </string-array>
+   
+</resources>
