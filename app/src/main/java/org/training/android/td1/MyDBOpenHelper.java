@@ -1,4 +1,4 @@
-package com.adeuza.formation.android.tp1.db;
+package org.training.android.td1;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

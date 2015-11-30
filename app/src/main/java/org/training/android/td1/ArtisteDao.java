@@ -1,9 +1,10 @@
-package com.adeuza.formation.android.tp1.db;
+package org.training.android.td1;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.adeuza.formation.android.tp1.Artiste;
+import org.training.android.td1.Artiste;
+import org.training.android.td1.MyDBOpenHelper;
 
 import android.content.Context;
 import android.database.Cursor;

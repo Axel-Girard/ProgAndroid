@@ -1,4 +1,4 @@
-package com.adeuza;
+package org.training.android.td1;
 
 import java.util.List;
 
@@ -9,9 +9,9 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-public class PhotoAdapter extends ArrayAdapter<Photo> {
+public class PhotoAdapter /*extends ArrayAdapter<Photo>*/ {
 
-	private List<Photo> photos;
+	/*private List<Photo> photos;
 
 	private LayoutInflater inflater;
 
@@ -38,5 +38,5 @@ public class PhotoAdapter extends ArrayAdapter<Photo> {
 	@Override
 	public long getItemId(int position) {
 		return this.photos.get(position).getId();
-	}
+	}*/
 }

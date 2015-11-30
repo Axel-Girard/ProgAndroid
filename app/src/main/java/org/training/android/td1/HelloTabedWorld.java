@@ -55,8 +55,19 @@ public class HelloTabedWorld extends TabActivity {
 						this.getResources().getDrawable(android.R.drawable.ic_media_play))
 				.setContent(tabIntent);
 		tabHost.addTab(spec);
+
+
+		// Initialisation du premier tabspec et ajout au tabHost
+		tabIntent = new Intent(this, ArtisteActivity.class);
+		spec = tabHost
+				.newTabSpec("Artiste")
+				.setIndicator("Artiste",
+						this.getResources().getDrawable(android.R.drawable.ic_menu_sort_by_size))
+				.setContent(tabIntent);
+		tabHost.addTab(spec);
+
 		// Quel onglet afficher à l'init ?
-		tabHost.setCurrentTab(1);
+		tabHost.setCurrentTab(0);
 
 	}
 }
